@@ -1,17 +1,111 @@
 <!doctype html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
 <head>
   <meta charset="utf-8">
-  <title>Dialogflow</title>
+   <!-- Website Title -->
+   <title>Guia do Cidadão</title>
   <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Styles -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link href="src\css\swiper.css" rel="stylesheet">
+  <link href="src\css\magnific-popup.css" rel="stylesheet">
+  <link href="src\css\styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="/src/images/gui-icon.png">
+
 </head>
-<body>
+<body data-spy="scroll" data-target=".fixed-top">
+      <!-- Preloader -->
+      <div class="spinner-wrapper">
+          <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+          </div>
+      </div>
+      <!-- end of preloader -->
+      
+  
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+          <!-- Text Logo - Use this if you don't have a graphic logo -->
+          <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
+  
+          <!-- Image Logo -->
+          <a class="navbar-brand logo-image" href="app\app.component.html"><img src="images/guia-do-cidadao.png" alt="alternative"></a> 
+          
+          <!-- Mobile Menu Toggle Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-awesome fas fa-bars"></span>
+              <span class="navbar-toggler-awesome fas fa-times"></span>
+          </button>
+          <!-- end of mobile menu toggle button -->
+  
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                      <a class="nav-link page-scroll" href="#"><i class="fa fa-info-circle" data-unicode="f05a"></i> GUIA DE SERVIÇOS</a>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link page-scroll" href="#"><i class="fa fa-address-card" data-unicode="f05a"></i> INFORME SEU CPF</a>
+                  </li>          
+          </div>
+      </nav> <!-- end of navbar -->
+      <!-- end of navbar -->
+      <div class="header-content">
+          
   <app-root></app-root>
+
+        </div> <!-- end of header-content -->
+
+
+         <!-- Footer -->
+  <div class="footer">
+      <div class="container">  
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="footer-col">
+                      <h4>UMA PARCERIA COM:</h4>
+                      <p> <img class="img-fluid" src="images/GOVERNOMS-logo.jpg" width="220px" alt="alternative"></p>
+                  </div>
+              </div> <!-- end of col -->
+  
+          <div class="col-md-6">
+                  <div class="footer-col middle">
+                      <ul class="list-unstyled li-space-lg">
+                          <li class="media">
+                              <div class="media-body"><a href="http://www.ouvidorias.ms.gov.br/"><b><i class="fa fa-info-circle" data-unicode="f05a"></i> Portal da Transparência</b></a></div>
+                          </li>
+                          <li class="media">
+                              <div class="media-body"><a href="http://www.ouvidorias.ms.gov.br/">
+                                  <b><i class="fa fa-bullhorn" data-unicode="f05a"></i> Ouvidoria</b></a></div>
+                          </li>
+                      </ul>
+                  </div>
+              </div> <!-- end of col -->               
+          </div> <!-- end of row -->
+      </div> <!-- end of container -->
+  </div> <!-- end of footer -->  
+  <!-- end of footer -->
+  
+      
+  <!-- Scripts -->
+  <script src="\src\js\jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+  <script src="\src\js\popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+  <script src="\src\js\bootstrap.min.js"></script> <!-- Bootstrap framework -->
+  <script src="\src\js\jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+  <script src="\src\js\swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+  <script src="\src\js\jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+  <script src="\src\js\morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+  <script src="\src\js\validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+  <script src="\src\js\scripts.js"></script> <!-- Custom scripts -->
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
